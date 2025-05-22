@@ -1,0 +1,50 @@
+.HeroCard {
+    width: auto;
+}
+
+.IconHeroBtn {
+    width: 59.9044px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 19.97px;
+    border: none;
+
+
+}
+
+.IconHeroBtn img {
+    width: 29.95px;
+}
+
+.HeroCardRight {
+    gap: 10px;
+}
+
+.HeroCardRight p {
+    color: var(--deep-black);
+}
+
+@media (max-width:992px) {
+    .HeroCard {
+        max-width: 301px;
+    }
+
+    .IconHeroBtn {
+        margin-right: 24px;
+
+
+    }
+
+    .IconHeroBtn img {
+        width: 31.53px;
+    }
+
+    .HeroCardRight {
+        gap: 6px;
+    }
+
+    .HeroCardRight p {
+        color: var(--deep-black);
+    }
+
+}

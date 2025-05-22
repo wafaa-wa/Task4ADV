@@ -1,0 +1,26 @@
+.FooterColumn {
+    gap: 20px;
+}
+
+.FooterColumn h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: var(--deep-black);
+
+}
+
+.FooterColumn ul {
+    gap: 16px;
+
+}
+
+.FooterColumn li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: var(--deep-black);
+
+}

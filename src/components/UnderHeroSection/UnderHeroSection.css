@@ -1,0 +1,45 @@
+.UnderHeroSection {
+    background-image: url("/assests/images/UnderHero/background Image.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 380px;
+}
+
+.UnderHeroSectionContent {
+    gap: 58px;
+}
+
+.UnderHeroSectionContent h2 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: var(--white);
+
+}
+
+.UnderHeroSectionContent p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white);
+
+}
+
+@media (max-width:992px) {
+    .UnderHeroSectionContent {
+        gap: 15px;
+    }
+
+    .UnderHeroSectionContent h2 {
+        font-size: 30px;
+        line-height: 56px;
+    }
+
+    .UnderHeroSectionContent p {
+        font-size: 14px;
+
+    }
+}

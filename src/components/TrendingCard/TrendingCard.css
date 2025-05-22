@@ -1,0 +1,82 @@
+.TrendingCard {
+    max-width: 382px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--cloud-white);
+}
+
+.TrendingImage {
+    width: 89.587%;
+    margin-bottom: 16px;
+}
+
+.TrendingCard .Price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--ocean-blue);
+
+}
+
+.TrendingDescription {
+    width: 47.1204%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--deep-black);
+    margin-bottom: 38px;
+
+}
+
+.LocationCard {
+    align-items: center;
+    gap: 10.48px;
+}
+
+.LocationCard img {
+    width: 23.52px;
+}
+
+.LocationCard p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--deep-black);
+
+}
+
+@media (max-width:992px) {
+    .TrendingCard {
+        max-width: 320px;
+        padding: 16px;
+        border-radius: 6px;
+    }
+
+    .TrendingImage {
+        width: 90%;
+        margin-bottom: 14px;
+    }
+
+
+    .TrendingDescription {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 72px;
+
+    }
+
+    .LocationCard {
+        gap: 15.45px;
+    }
+
+    .LocationCard img {
+        width: 18px;
+    }
+
+    .LocationCard p {
+        font-size: 12px;
+
+    }
+
+}

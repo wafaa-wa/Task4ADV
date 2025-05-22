@@ -1,0 +1,144 @@
+.Footer {
+    padding: 35px 70px;
+    margin-top: 129px;
+}
+
+.Footer-top {
+    gap: 60px;
+    align-items: flex-start;
+    margin-bottom: 48.67px;
+}
+
+.Footer-top-Left {
+    width: 28.6843%;
+    justify-content: flex-start;
+    gap: 25.92px;
+}
+
+.Footer-top-Left img {
+    width: 65.92px;
+}
+
+.Footer-top-Left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: var(--glass-dark);
+
+}
+.TOWFooterColumn {
+    gap: 60px;
+}
+
+.ThirdFooterColumn {
+    gap: 20px;
+}
+
+.ThirdFooterColumn h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: var(--deep-black);
+    margin-bottom: 16px;
+}
+
+.ThirdFooterColumn p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: var(--deep-black);
+    margin-bottom: 16px;
+}
+
+.BtnFooterContainer {
+    gap: 16px;
+}
+
+.BtnFooterContainer button {
+    width: 48px;
+    height: 48px;
+    border-radius: 40px;
+    padding: 12px;
+    background-color: var(--ocean-blue);
+    border: none;
+
+
+}
+
+.BtnFooterContainer button img {
+    width: 24px;
+
+}
+
+.Line {
+    width: 100%;
+    border: 1px solid #2222221A;
+}
+
+.Footer-Bottom {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.Footer-Bottom p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    color: var(--deep-black);
+
+}
+
+.EndFooterRight {
+    gap: 30px;
+}
+@media (max-width:992px) {
+    .Footer {
+        padding: 20px;
+        margin-top: 64px;
+    }
+    
+    .Footer-top {
+        gap: 32px;
+        flex-direction: column;
+        margin-bottom: 35.19px;
+    }
+    
+    .Footer-top-Left {
+        width: 100%;
+        gap: 26px;
+    }
+    
+    .Footer-top-Left img {
+        width: 60px;
+    }
+    
+   
+    .TOWFooterColumn {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .ThirdFooterColumn {
+        gap: 20px;
+    }
+    
+    
+    
+    .Footer-Bottom {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    
+    
+    
+    .EndFooterRight {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+}

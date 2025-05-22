@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --sky-mist: #EFF8FF;
+    --deep-black: #222222;
+    --ocean-blue: #025595;
+    --soft-white: #F5F5F5;
+    --black: #000000;
+    --cloud-blue: #D7E6EA;
+    --glass-dark: #22222280;
+    --glass-white: #FFFFFFCC;
+    --cloud-white: #FFFFFF26;
+    --moonlit-ash:#22222266;
+    background-color: var(#FFFFFF);
+
+}
+
+.MenuIcon {
+    background: none;
+    border: none;
+    display: none !important;
+}
+
+.Flex-Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Flex-Row  {
+    display: flex;
+    flex-direction: row;
+}
+
+.Flex-Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Padding70 {
+    padding: 0px 70px;
+}
+
+.M-Top {
+    margin-top: 94px;
+}
+
+.StyleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.22px;
+    vertical-align: middle;
+    color: var(--deep-black);
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.22px;
+    vertical-align: middle;
+
+}
+
+@media (max-width:992px) {
+    .Padding70 {
+        padding: 0px 20px;
+    }
+
+    .M-Top {
+        margin-top: 63px;
+    }
+    .StyleSection {
+        gap: 42px;
+    }
+}

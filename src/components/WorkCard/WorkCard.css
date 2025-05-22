@@ -1,0 +1,68 @@
+.WorkCard {
+    width: 380px;
+    border-radius: 15px;
+    padding: 30px 40px 80px 40px;
+    gap: 20px;
+
+}
+
+.WorkCard.active {
+    background-color: var(--ocean-blue);
+
+}
+
+.CardIcon {
+    width: 39.85px;
+}
+
+.WorkCard.active.CardIcon {
+    fill: var(--ocean-blue);
+    stroke: var(--white);
+}
+
+.WorkCardBottom {
+    gap: 10px;
+}
+
+.WorkCardBottom h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--glass-dark);
+
+}
+
+.WorkCard.active .WorkCardBottom h3 {
+    color: var(--white);
+}
+
+.WorkCardBottom p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--glass-dark);
+
+}
+
+.WorkCard.active .WorkCardBottom p {
+    color: var(--white);
+}
+
+@media (max-width:992px) {
+    .WorkCard {
+        width: 320px;
+        border-radius: 10px;
+        padding: 15px 10px;
+        gap: 10px;
+
+    }
+
+    .CardIcon {
+        width: 37.86px;
+    }
+
+
+
+
+}

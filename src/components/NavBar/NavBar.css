@@ -1,0 +1,157 @@
+.NavBar {
+    width: 100%;
+    height: 90px;
+    padding: 17px 70px;
+    background-color: var(--sky-mist);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav {
+    width: 89.7510%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Logo {
+    width: 68.66px;
+}
+
+.Menu-Link {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.Menu-Link li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--deep-black);
+
+}
+
+.LogINButton {
+    width: 10.6635%;
+    padding: 13px 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--ocean-blue);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--soft-white);
+
+}
+
+.MenuIcon {
+    display: none;
+    border: none;
+    background: none;
+    position: relative;
+
+}
+
+.Menu-Link-Mobile {
+    display: none !important;
+}
+
+@media (max-width:1200px) {
+    .NavBar {
+        height: 132px;
+        padding: 30px 20px 67px 20px;
+
+
+
+    }
+
+
+    .Logo {
+        width: 45.92px;
+    }
+
+    .Menu-Link {
+        display: none !important;
+    }
+
+    .onLaptopBtn {
+        display: none !important;
+    }
+
+    .MenuIcon {
+        display: block !important;
+    }
+
+    .Menu-Link-Mobile {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 125px;
+        right: 0px;
+        align-items: center;
+
+    }
+
+    .Menu-Link-Mobile.open {
+        display: flex !important;
+    }
+
+    .Menu-Link-Mobile ul {
+        width: 100%;
+        height: 450px;
+        align-items: center;
+        margin-bottom: 65.5px;
+        gap: 32px;
+    }
+
+    .Menu-Link-Mobile ul li {
+        width: 100%;
+        padding: 24px 92px 24px 20px;
+        border: 1px solid var(--black);
+
+    }
+
+    .Menu-Link-Mobile ul li a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1px;
+        color: var(--deep-black);
+        letter-spacing: 0px;
+        vertical-align: middle;
+
+    }
+
+    .Menu-Link-Mobile ul li:has(a.active) {
+        background-color: var(--cloud-blue);
+        border: none;
+        border-bottom-width: 2px;
+
+    }
+
+    .onMobileBtn {
+        width: 175px;
+        padding: 13px 20px;
+        border-radius: 6px;
+        border: none;
+        background-color: var(--ocean-blue);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: var(--soft-white);
+    }
+
+
+
+
+
+}
