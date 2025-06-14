@@ -1,12 +1,11 @@
 .Footer {
-    padding: 35px 70px;
-    margin-top: 129px;
+    padding: 35px 70px 24px;
 }
 
 .Footer-top {
     gap: 60px;
     align-items: flex-start;
-    margin-bottom: 48.67px;
+    margin-bottom: 35px;
 }
 
 .Footer-top-Left {
@@ -27,51 +26,11 @@
     color: var(--glass-dark);
 
 }
-.TOWFooterColumn {
+
+.AllFooterColumn {
     gap: 60px;
 }
 
-.ThirdFooterColumn {
-    gap: 20px;
-}
-
-.ThirdFooterColumn h3 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 2%;
-    color: var(--deep-black);
-    margin-bottom: 16px;
-}
-
-.ThirdFooterColumn p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 2%;
-    color: var(--deep-black);
-    margin-bottom: 16px;
-}
-
-.BtnFooterContainer {
-    gap: 16px;
-}
-
-.BtnFooterContainer button {
-    width: 48px;
-    height: 48px;
-    border-radius: 40px;
-    padding: 12px;
-    background-color: var(--ocean-blue);
-    border: none;
-
-
-}
-
-.BtnFooterContainer button img {
-    width: 24px;
-
-}
 
 .Line {
     width: 100%;
@@ -96,46 +55,45 @@
 .EndFooterRight {
     gap: 30px;
 }
+
 @media (max-width:992px) {
     .Footer {
-        padding: 20px;
-        margin-top: 64px;
+        padding: 0px;
     }
-    
+
     .Footer-top {
         gap: 32px;
         flex-direction: column;
+        padding: 0 20px;
         margin-bottom: 35.19px;
     }
-    
+
     .Footer-top-Left {
         width: 100%;
         gap: 26px;
     }
-    
+
     .Footer-top-Left img {
         width: 60px;
     }
-    
-   
-    .TOWFooterColumn {
+
+
+    .AllFooterColumn {
         flex-direction: column;
         gap: 20px;
     }
-    
-    .ThirdFooterColumn {
-        gap: 20px;
-    }
-    
-    
-    
+
+
+
     .Footer-Bottom {
         flex-direction: column;
+        align-items: center;
         margin-top: 16px;
+        padding: 0 27.39px 27px 13.95px;
     }
-    
-    
-    
+
+
+
     .EndFooterRight {
         gap: 0px;
         justify-content: space-between;

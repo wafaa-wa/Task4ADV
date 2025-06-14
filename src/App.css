@@ -19,7 +19,7 @@
     --glass-dark: #22222280;
     --glass-white: #FFFFFFCC;
     --cloud-white: #FFFFFF26;
-    --moonlit-ash:#22222266;
+    --moonlit-ash: #22222266;
     background-color: var(#FFFFFF);
 
 }
@@ -36,7 +36,7 @@
     justify-content: space-between;
 }
 
-.Flex-Row  {
+.Flex-Row {
     display: flex;
     flex-direction: row;
 }
@@ -88,6 +88,7 @@ p {
     .M-Top {
         margin-top: 63px;
     }
+
     .StyleSection {
         gap: 42px;
     }
